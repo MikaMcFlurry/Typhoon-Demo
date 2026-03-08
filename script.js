@@ -1,83 +1,166 @@
 const translations = {
   de: {
-    nav_about: 'Band', nav_songs: 'Songs', nav_events: 'Live', nav_news: 'News', nav_contact: 'Kontakt',
-    hero_eyebrow: 'Aus Hechingen ins nächste verschwitzte Clublicht.',
-    hero_title: 'Bluesrock mit Funk- und Soul-Touch. 8 Köpfe. Viel Groove. Kein Leerlauf.',
-    hero_copy: 'Typhoon verbindet kräftige Riffs, Bläsersätze, Hammond-Farbe und einen rauen Live-Vibe zu einem Sound zwischen Bluesrock, Soul-Drive und Southern-Heat.',
-    hero_btn_music: 'Demos anhören', hero_btn_events: 'Termine ansehen',
-    statement: 'Wir proben regelmäßig im Kanzlei Studio in Hechingen, schärfen unser Set und bereiten die nächsten Gigs vor. Typhoon ist nicht geschniegelt – sondern direkt, warm, druckvoll und ehrlich.',
-    about_kicker: 'Die Band', about_title: '8-köpfig, eingespielt und gebaut für Bühne, Schweiß und Druck.',
-    about_text_1: 'Typhoon ist eine 8-köpfige Band mit Bluesrock-Fundament, Funk-Groove und Soul-Touch. Das Ergebnis: kräftige Gitarrenriffs, atmende Hammond-Flächen, eine fette Rhythm Section und eine Bläserfront, die Songs nicht schmückt, sondern nach vorne treibt.',
-    about_text_2: 'Geprobt wird regelmäßig im Kanzlei Studio in Hechingen. Ziel für die nächsten Monate: das Set messerscharf machen, neue Dynamik aufbauen und wieder mehr Live-Termine spielen.',
-    lineup_title: 'Besetzung', lineup_1: 'Gesang / Keys / Hammond', lineup_2: '2× Gitarre', lineup_3: 'Bass', lineup_4: 'Drums', lineup_5: 'Saxophon', lineup_6: 'Trompete', lineup_7: 'Posaune',
-    photo_kicker: 'Bandfoto', photo_title: 'Die komplette Besetzung auf einen Blick.',
-    songs_kicker: 'Songs & Demos', songs_title: 'Eigene Songs, direkt von der Probe zur Webseite.', songs_text: 'Lade einfach deine MP3-Dateien direkt ins GitHub-Hauptverzeichnis hoch. Die Player greifen automatisch darauf zu.',
-    song_flavor_1: 'Grooviger Opener mit rauem Zug.', song_flavor_2: 'Soul-Touch, Bläserfarbe und Druck nach vorne.', song_flavor_3: 'Dunklere Stimmung, tiefer Groove.', song_flavor_4: 'Mehr Soul, mehr Raum, mehr Spannung.', song_flavor_5: 'Schneller, kantiger, live gebaut.',
-    audio_note: 'Dateinamen bitte exakt so hochladen wie oben angegeben. Alle Dateien kommen direkt ins Hauptverzeichnis des Repositories.',
-    events_kicker: 'Live', events_title: 'Termine im Großraum Reutlingen, Balingen, Hechingen, Tübingen und Stuttgart.', events_note: 'Demo-Inhalte zur Darstellung der Website. Nicht als bestätigte Buchungen verstehen.',
-    event_1: '19:00 Uhr · Vorband · Walddorfhäslach', event_2: '20:30 Uhr · Reutlingen', event_3: '19:30 Uhr · Balingen', event_4: '20:00 Uhr · Hechingen', event_5: '21:00 Uhr · Tübingen', event_6: '20:30 Uhr · Stuttgart',
-    news_kicker: 'News', news_title: 'Was bei Typhoon gerade passiert.',
-    news_tag_studio: 'Studio', news_tag_live: 'Live', news_tag_demo: 'Demo',
-    news_1_title: 'Das Set wächst im Kanzlei Studio zusammen.', news_1_text: 'Typhoon arbeitet aktuell daran, das Liveset musikalisch enger, dynamischer und noch druckvoller zu machen.',
-    news_2_title: 'Mehr Bühnenzeit ist das nächste Ziel.', news_2_text: 'Nach intensiver Probenphase soll es in den kommenden Monaten wieder häufiger auf Bühnen in der Region gehen.',
-    news_3_title: 'Demo-Tracks sind jetzt auf der Website eingebunden.', news_3_text: 'Sobald die MP3-Dateien hochgeladen sind, können Besucher direkt in die bisherigen Songs reinhören.',
-    contact_kicker: 'Kontakt', contact_title: 'Booking, Anfragen, Interesse?', contact_text: 'Für Demo-Zwecke ist hier ein Platzhalter eingebaut. Ersetze ihn einfach durch eure echte Mailadresse oder Social Links.', contact_sub: 'Hechingen · Deutschland',
-    footer_note: 'Demo-Website für GitHub Pages. Eventeinträge teils bewusst als Beispielinhalt angelegt.'
+    nav_about: 'Band',
+    nav_music: 'Musik',
+    nav_events: 'Shows',
+    nav_news: 'News',
+    nav_contact: 'Kontakt',
+    hero_eyebrow: 'Hechingen • 8-köpfig • Bluesrock mit Groove',
+    hero_title: 'Rauer Ton. Viel Druck. Und genug Soul, damit es nicht geschniegelt klingt.',
+    hero_text: 'Typhoon verbindet Bluesrock mit Funk- und Soul-Touch, kräftigen Riffs, Bläsersatz und einem warmen Southern-Vibe. Die Band probt regelmäßig im Kanzlei Studio in Hechingen und arbeitet an einem Set, das live genauso direkt wirkt wie das Bild der Band selbst.',
+    hero_cta_1: 'Demos anhören',
+    hero_cta_2: 'Termine ansehen',
+    hero_panel_kicker: 'Besetzung',
+    about_kicker: 'Die Band',
+    about_title: 'Acht Leute, ein gemeinsamer Zug nach vorn.',
+    about_text_1: 'Typhoon lebt von Reibung und Zusammenspiel: Rhythmusgruppe, zwei Gitarren, Hammond-Farbe und ein kompletter Bläsersatz sorgen für Druck, Luft und Charakter. Der Sound ist nicht glatt, sondern gewachsen — mit Groove, Kante und genug Seele für lange Nächte auf kleinen und großen Bühnen.',
+    about_text_2: 'Zwischen schweren Riffs, federnden Grooves, warmen Keys und staubigem Southern-Vibe entsteht ein Livesound, der gleichzeitig kernig und beweglich bleibt. Typhoon probt regelmäßig im Kanzlei Studio in Hechingen und will in den nächsten Monaten wieder mehr Gigs spielen.',
+    lineup_1: 'Gesang / Keys (Hammond / Keys)',
+    lineup_2: '2× Gitarre',
+    lineup_3: 'Bass',
+    lineup_4: 'Drums',
+    lineup_5: 'Saxophon',
+    lineup_6: 'Trompete',
+    lineup_7: 'Posaune',
+    sound_card_1_title: 'Groove zuerst',
+    sound_card_1_text: 'Der Puls bleibt in Bewegung: Bass und Drums tragen, statt nur zu begleiten.',
+    sound_card_2_title: 'Kräftige Riffs',
+    sound_card_2_text: 'Zwei Gitarren und Hammond sorgen für Wärme, Schmutz und Gewicht.',
+    sound_card_3_title: 'Bläser mit Biss',
+    sound_card_3_text: 'Saxophon, Trompete und Posaune setzen Hooks, Akzente und Schub.',
+    image_kicker: 'Komplette Besetzung',
+    image_title: 'Das ganze Bandbild zusätzlich voll auf der Website.',
+    image_text: 'Im Header bleibt das Artwork als Bühne und Stimmung erhalten. Hier steht das Bild noch einmal komplett und ohne Beschnitt, damit die gesamte Besetzung sichtbar bleibt.',
+    music_kicker: 'Musik',
+    music_title: 'Demos und aktuelles Material',
+    music_note: 'Lade einfach die MP3-Dateien mit den unten genannten Dateinamen ins Hauptverzeichnis deines Repos hoch.',
+    events_kicker: 'Shows',
+    events_title: 'Termine und Demo-Auftritte',
+    events_note: 'Die folgenden Termine dienen aktuell als Demo-Inhalte zur Website-Gestaltung und sind nicht als bestätigte Buchungen zu verstehen.',
+    event_role_support: 'Vorband',
+    event_role_live: 'Live',
+    event_role_headline: 'Headline Show',
+    event_role_city: 'City Stage',
+    event_role_festival: 'Festival Slot',
+    event_role_special: 'Special Set',
+    news_kicker: 'News',
+    news_title: 'Aktuelles aus dem Proberaum',
+    news_1_title: 'Set wird verdichtet',
+    news_1_text: 'Typhoon arbeitet daran, das Liveset musikalisch und dramaturgisch zu schärfen — mit mehr Flow, klareren Übergängen und mehr Dynamik auf der Bühne.',
+    news_2_title: 'Regelmäßige Proben im Kanzlei Studio',
+    news_2_text: 'Im Hechinger Proberaum wird konsequent an Zusammenspiel, Sound und Druck gefeilt. Ziel ist ein stabiles Set für kommende Shows.',
+    news_3_title: 'Mehr Bühne in Planung',
+    news_3_text: 'Die nächsten Monate stehen im Zeichen von Präsenz, Spielfluss und neuen Live-Terminen im Raum Hechingen, Reutlingen, Tübingen, Balingen und Stuttgart.',
+    contact_kicker: 'Kontakt',
+    contact_title: 'Booking, Anfrage, Konzert?',
+    contact_text: 'Hier kannst du später einfach eure echte E-Mail-Adresse, Social Links oder ein Kontaktformular eintragen.',
+    contact_region: 'Raum Hechingen • Balingen • Reutlingen • Tübingen • Stuttgart',
+    footer_note: 'Demo-Website für GitHub Pages. Einige Termine sind bewusst als Demo-Inhalte markiert.'
   },
   en: {
-    nav_about: 'Band', nav_songs: 'Songs', nav_events: 'Live', nav_news: 'News', nav_contact: 'Contact',
-    hero_eyebrow: 'From Hechingen to the next sweat-soaked club light.',
-    hero_title: 'Blues rock with funk and soul flavor. 8 people. Heavy groove. No idle motion.',
-    hero_copy: 'Typhoon blends thick riffs, horn arrangements, Hammond color and a raw live pulse into a sound somewhere between blues rock, soul drive and southern heat.',
-    hero_btn_music: 'Listen to demos', hero_btn_events: 'See shows',
-    statement: 'We rehearse regularly at Kanzlei Studio in Hechingen, tighten the set and prepare the next shows. Typhoon is not polished to death — it is direct, warm, punchy and honest.',
-    about_kicker: 'The band', about_title: '8 musicians, road-tested chemistry and built for stage pressure.',
-    about_text_1: 'Typhoon is an 8-piece band with a blues-rock foundation, funk groove and soul touch. The result: heavy guitar riffs, breathing Hammond textures, a thick rhythm section and a horn front that pushes songs forward instead of decorating them.',
-    about_text_2: 'The band rehearses regularly at Kanzlei Studio in Hechingen. Goal for the next months: sharpen the set, build more dynamics and get back to more live shows.',
-    lineup_title: 'Line-up', lineup_1: 'Vocals / Keys / Hammond', lineup_2: '2× Guitar', lineup_3: 'Bass', lineup_4: 'Drums', lineup_5: 'Saxophone', lineup_6: 'Trumpet', lineup_7: 'Trombone',
-    photo_kicker: 'Band photo', photo_title: 'The full line-up at a glance.',
-    songs_kicker: 'Songs & demos', songs_title: 'Original tracks, straight from rehearsal to the website.', songs_text: 'Just upload your MP3 files directly into the GitHub root folder. The players will pick them up automatically.',
-    song_flavor_1: 'Groove-heavy opener with rough pull.', song_flavor_2: 'Soul touch, horn color and forward drive.', song_flavor_3: 'Darker mood, deeper groove.', song_flavor_4: 'More soul, more space, more tension.', song_flavor_5: 'Faster, sharper, made for live energy.',
-    audio_note: 'Please upload the filenames exactly as shown above. All files go directly into the root directory of the repository.',
-    events_kicker: 'Live', events_title: 'Shows across the Reutlingen, Balingen, Hechingen, Tübingen and Stuttgart area.', events_note: 'Demo content used to fill the website layout. Do not treat as confirmed bookings.',
-    event_1: '7:00 PM · Opening act · Walddorfhäslach', event_2: '8:30 PM · Reutlingen', event_3: '7:30 PM · Balingen', event_4: '8:00 PM · Hechingen', event_5: '9:00 PM · Tübingen', event_6: '8:30 PM · Stuttgart',
-    news_kicker: 'News', news_title: 'What is happening around Typhoon right now.',
-    news_tag_studio: 'Studio', news_tag_live: 'Live', news_tag_demo: 'Demo',
-    news_1_title: 'The set is coming together at Kanzlei Studio.', news_1_text: 'Typhoon is currently working on making the live set tighter, more dynamic and even more punchy.',
-    news_2_title: 'More stage time is the next target.', news_2_text: 'After an intensive rehearsal phase, the band aims to play more stages across the region again.',
-    news_3_title: 'Demo tracks are now integrated into the website.', news_3_text: 'As soon as the MP3 files are uploaded, visitors can listen to the current songs directly.',
-    contact_kicker: 'Contact', contact_title: 'Booking, requests, interest?', contact_text: 'This is a placeholder for demo purposes. Replace it with your real email address or social links.', contact_sub: 'Hechingen · Germany',
-    footer_note: 'Demo website for GitHub Pages. Some event entries are intentionally example content.'
+    nav_about: 'Band',
+    nav_music: 'Music',
+    nav_events: 'Shows',
+    nav_news: 'News',
+    nav_contact: 'Contact',
+    hero_eyebrow: 'Hechingen • 8-piece • Bluesrock with groove',
+    hero_title: 'Raw tone. Real weight. And enough soul to keep it from sounding polished.',
+    hero_text: 'Typhoon blends bluesrock with a funk and soul touch, heavy riffs, a horn section and a warm southern feel. The band rehearses regularly at Kanzlei Studio in Hechingen and is shaping a set that feels as direct live as the band image itself.',
+    hero_cta_1: 'Listen to demos',
+    hero_cta_2: 'View shows',
+    hero_panel_kicker: 'Line-up',
+    about_kicker: 'The band',
+    about_title: 'Eight players, one common pull forward.',
+    about_text_1: 'Typhoon lives on friction and interplay: rhythm section, two guitars, Hammond color and a full horn line create weight, air and character. The sound is not glossy, but grown — with groove, edge and enough soul for long nights on small and large stages.',
+    about_text_2: 'Between heavy riffs, elastic grooves, warm keys and a dusty southern touch, the band builds a live sound that stays both gritty and mobile. Typhoon rehearses regularly at Kanzlei Studio in Hechingen and aims to play more gigs again in the coming months.',
+    lineup_1: 'Vocals / Keys (Hammond / Keys)',
+    lineup_2: '2× Guitar',
+    lineup_3: 'Bass',
+    lineup_4: 'Drums',
+    lineup_5: 'Saxophone',
+    lineup_6: 'Trumpet',
+    lineup_7: 'Trombone',
+    sound_card_1_title: 'Groove first',
+    sound_card_1_text: 'The pulse keeps moving: bass and drums carry the songs instead of merely accompanying them.',
+    sound_card_2_title: 'Heavy riffs',
+    sound_card_2_text: 'Two guitars and Hammond bring warmth, grit and weight.',
+    sound_card_3_title: 'Horns with bite',
+    sound_card_3_text: 'Saxophone, trumpet and trombone deliver hooks, accents and momentum.',
+    image_kicker: 'Full line-up',
+    image_title: 'The full band image is shown on the site as well.',
+    image_text: 'The header keeps the artwork as atmosphere and backdrop. Here the image appears again in full and without cropping so the complete line-up stays visible.',
+    music_kicker: 'Music',
+    music_title: 'Demos and current material',
+    music_note: 'Just upload the MP3 files with the filenames shown below into the root directory of your repository.',
+    events_kicker: 'Shows',
+    events_title: 'Dates and demo shows',
+    events_note: 'These dates currently serve as demo content for the website layout and should not be interpreted as confirmed bookings.',
+    event_role_support: 'Support',
+    event_role_live: 'Live',
+    event_role_headline: 'Headline show',
+    event_role_city: 'City stage',
+    event_role_festival: 'Festival slot',
+    event_role_special: 'Special set',
+    news_kicker: 'News',
+    news_title: 'Updates from the rehearsal room',
+    news_1_title: 'The set is getting tighter',
+    news_1_text: 'Typhoon is refining the live set musically and structurally — with more flow, clearer transitions and stronger dynamics on stage.',
+    news_2_title: 'Regular rehearsals at Kanzlei Studio',
+    news_2_text: 'In the Hechingen rehearsal room the band is consistently working on interplay, sound and punch. The goal is a reliable set for upcoming shows.',
+    news_3_title: 'More stage time in the works',
+    news_3_text: 'The coming months are about visibility, performance flow and new live dates around Hechingen, Reutlingen, Tübingen, Balingen and Stuttgart.',
+    contact_kicker: 'Contact',
+    contact_title: 'Booking, request, concert?',
+    contact_text: 'Later you can simply replace this block with your real email address, social links or a contact form.',
+    contact_region: 'Area: Hechingen • Balingen • Reutlingen • Tübingen • Stuttgart',
+    footer_note: 'Demo website for GitHub Pages. Some dates are intentionally marked as demo content.'
   }
 };
 
-const langToggle = document.getElementById('langToggle');
-const savedLang = localStorage.getItem('typhoon_lang') || 'de';
-let currentLang = savedLang;
+const switchButton = document.getElementById('langSwitch');
+const year = document.getElementById('year');
+year.textContent = new Date().getFullYear();
 
-function applyLang(lang) {
-  document.body.setAttribute('data-lang', lang);
-  document.documentElement.lang = lang;
-  document.querySelectorAll('[data-i18n]').forEach(el => {
-    const key = el.getAttribute('data-i18n');
-    if (translations[lang][key]) el.textContent = translations[lang][key];
+function setLanguage(lang) {
+  const selected = translations[lang] ? lang : 'de';
+  localStorage.setItem('typhoon-language', selected);
+  document.documentElement.lang = selected;
+
+  document.querySelectorAll('[data-i18n]').forEach((element) => {
+    const key = element.dataset.i18n;
+    if (translations[selected][key]) {
+      element.textContent = translations[selected][key];
+    }
   });
-  localStorage.setItem('typhoon_lang', lang);
+
+  const title = selected === 'de'
+    ? 'Typhoon | Bluesrock, Funk & Soul aus Hechingen'
+    : 'Typhoon | Bluesrock, Funk & Soul from Hechingen';
+
+  const description = selected === 'de'
+    ? 'Typhoon ist eine 8-köpfige Band aus Hechingen. Bluesrock mit Funk- und Soul-Touch, kräftigen Riffs, Bläsersatz, Groove und Southern-Vibe.'
+    : 'Typhoon is an eight-piece band from Hechingen playing bluesrock with a funk and soul touch, heavy riffs, horn section, groove and southern feel.';
+
+  document.title = title;
+  document.querySelector('meta[name="description"]').setAttribute('content', description);
+  document.querySelector('meta[property="og:title"]').setAttribute('content', title);
+  document.querySelector('meta[property="og:description"]').setAttribute('content', description);
 }
 
-langToggle.addEventListener('click', () => {
-  currentLang = currentLang === 'de' ? 'en' : 'de';
-  applyLang(currentLang);
+switchButton.addEventListener('click', () => {
+  const nextLang = document.documentElement.lang === 'de' ? 'en' : 'de';
+  setLanguage(nextLang);
 });
 
-applyLang(currentLang);
-document.getElementById('year').textContent = new Date().getFullYear();
+const storedLanguage = localStorage.getItem('typhoon-language') || 'de';
+setLanguage(storedLanguage);
 
-document.querySelectorAll('audio').forEach(player => {
+const players = document.querySelectorAll('audio');
+players.forEach((player) => {
   player.addEventListener('play', () => {
-    document.querySelectorAll('audio').forEach(other => {
-      if (other !== player) {
-        other.pause();
+    players.forEach((otherPlayer) => {
+      if (otherPlayer !== player) {
+        otherPlayer.pause();
       }
     });
   });

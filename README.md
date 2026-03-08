@@ -1,8 +1,8 @@
 # Typhoon Demo Website
 
-GitHub-Pages-fertige Demo-Website für die Band **Typhoon**.
+GitHub-Pages-fertige Website für Typhoon.
 
-## Dateien direkt ins Hauptverzeichnis laden
+## Dateien direkt ins Hauptverzeichnis hochladen
 
 - index.html
 - styles.css
@@ -14,7 +14,7 @@ GitHub-Pages-fertige Demo-Website für die Band **Typhoon**.
 - bir-tek-sen-demo.mp3
 - cilgin-demo.mp3
 
-## Wichtig vor dem Veröffentlichen
+## Vor dem Veröffentlichen
 
 In `index.html` diese Platzhalter ersetzen:
 
@@ -23,14 +23,8 @@ In `index.html` diese Platzhalter ersetzen:
 
 ## GitHub Pages
 
-1. Neues Repository anlegen
-2. Alle Dateien direkt ins Hauptverzeichnis hochladen
-3. In GitHub auf `Settings` → `Pages`
-4. Branch `main` und `/root` auswählen
+1. Repository anlegen
+2. Alle Dateien ins Hauptverzeichnis hochladen
+3. In GitHub `Settings > Pages`
+4. Branch `main` und Root auswählen
 5. Speichern
-
-## Hinweise
-
-- Das Bandbild liegt absichtlich direkt im Hauptverzeichnis.
-- Die Demo-Termine sind als Website-Füllung eingebaut und im Code entsprechend als Demo gekennzeichnet.
-- Der Audio-Bereich funktioniert, sobald die MP3-Dateien mit exakt diesen Dateinamen hochgeladen wurden.

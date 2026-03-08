@@ -1,231 +1,272 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Typhoon | Bluesrock mit Funk- und Soul-Touch</title>
-  <meta name="description" content="Typhoon ist eine 8-köpfige Band aus Hechingen mit Bluesrock, Funk- und Soul-Touch – viel Groove, kräftige Riffs und Southern-Vibe. Demo-Website mit News, Gigs und Bandinfos in DE/EN." />
-  <meta name="keywords" content="Typhoon, Bluesrock Band, Funk Rock, Soul Band, Hechingen, Live Band, Southern Vibe, Brass Section, DE EN band website" />
-  <meta name="author" content="Typhoon" />
-  <meta name="robots" content="index, follow" />
-  <meta name="theme-color" content="#2b1a12" />
-  <link rel="canonical" href="https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/" />
-
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Typhoon | Bluesrock mit Funk- und Soul-Touch" />
-  <meta property="og:description" content="8-köpfige Band aus Hechingen: Bluesrock, Funk, Soul, Groove und kräftige Riffs. News, Live-Termine und Songs auf Deutsch und Englisch." />
-  <meta property="og:image" content="assets/typhoon-band.jpg" />
-  <meta property="og:url" content="https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/" />
-  <meta property="og:locale" content="de_DE" />
-  <meta property="og:locale:alternate" content="en_US" />
-
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Typhoon | Bluesrock mit Funk- und Soul-Touch" />
-  <meta name="twitter:description" content="8-köpfige Bluesrock-Band mit Funk- und Soul-Touch aus Hechingen." />
-  <meta name="twitter:image" content="assets/typhoon-band.jpg" />
-
-  <link rel="preload" as="image" href="assets/typhoon-band.jpg" />
-  <link rel="stylesheet" href="styles.css" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typhoon | Bluesrock, Funk & Soul aus Hechingen</title>
+  <meta name="description" content="Typhoon ist eine 8-köpfige Band aus Hechingen mit Bluesrock, Funk- und Soul-Touch, kräftigen Riffs, viel Groove und Southern-Vibe. Demo-Website mit Bandinfos, Songs, News und Terminen.">
+  <meta name="keywords" content="Typhoon Band, Hechingen, Bluesrock, Funk, Soul, Southern Rock, Live Band, Reutlingen, Balingen, Tübingen, Stuttgart">
+  <meta name="author" content="Typhoon">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="Typhoon | Bluesrock, Funk & Soul aus Hechingen">
+  <meta property="og:description" content="8-köpfige Groove-getriebene Band aus Hechingen. Bluesrock mit Funk-, Soul- und Southern-Vibe.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="typhoon-band.jpg">
+  <meta property="og:locale" content="de_DE">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#2a170f">
+  <link rel="canonical" href="https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/">
+  <link rel="preload" href="typhoon-band.jpg" as="image">
+  <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "MusicGroup",
     "name": "Typhoon",
-    "description": "8-köpfige Band aus Hechingen mit Bluesrock, Funk- und Soul-Touch, viel Groove, kräftigen Riffs und Southern-Vibe.",
-    "genre": ["Bluesrock", "Funk Rock", "Soul"],
+    "genre": ["Bluesrock", "Funk", "Soul"],
+    "description": "8-köpfige Band aus Hechingen mit Bluesrock, Funk- und Soul-Touch, kräftigen Riffs, Groove und Southern-Vibe.",
+    "image": "https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/typhoon-band.jpg",
     "foundingLocation": {
       "@type": "Place",
-      "name": "Hechingen, Germany"
+      "name": "Hechingen"
     },
-    "image": "assets/typhoon-band.jpg",
-    "url": "https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/",
-    "member": [
-      {"@type": "Person", "jobTitle": "Vocals / Keys (Hammond / Keys)"},
-      {"@type": "Person", "jobTitle": "Guitar"},
-      {"@type": "Person", "jobTitle": "Guitar"},
-      {"@type": "Person", "jobTitle": "Bass"},
-      {"@type": "Person", "jobTitle": "Drums"},
-      {"@type": "Person", "jobTitle": "Saxophone"},
-      {"@type": "Person", "jobTitle": "Trumpet"},
-      {"@type": "Person", "jobTitle": "Trombone"}
-    ],
-    "track": [
-      {"@type": "MusicRecording", "name": "Farksilin"},
-      {"@type": "MusicRecording", "name": "Karanfil"},
-      {"@type": "MusicRecording", "name": "Gece yine düstün"},
-      {"@type": "MusicRecording", "name": "Bir Tek sen"},
-      {"@type": "MusicRecording", "name": "Cilgin"}
-    ]
+    "knowsAbout": ["Live Musik", "Bluesrock", "Funk", "Soul", "Southern Vibe"],
+    "url": "https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/"
   }
   </script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+  <div class="page-noise" aria-hidden="true"></div>
+  <div class="page-vignette" aria-hidden="true"></div>
 
-  <header class="site-header">
+  <header class="site-header" id="top">
     <div class="container nav-wrap">
-      <a href="#top" class="brand" aria-label="Typhoon Home">
-        <span class="brand-mark">Z</span>
+      <a href="#top" class="brand" aria-label="Typhoon Startseite">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 180 70" role="img">
+            <path d="M8 45 C28 36, 42 29, 66 30 C90 31, 104 44, 129 43 C144 42, 156 36, 173 22" />
+            <path d="M32 12 L83 12" />
+            <path d="M56 12 L44 58" />
+          </svg>
+        </span>
         <span class="brand-text">Typhoon</span>
       </a>
 
-      <nav class="main-nav" aria-label="Main Navigation">
-        <a href="#about" data-i18n="navAbout">Band</a>
-        <a href="#sound" data-i18n="navSound">Sound</a>
-        <a href="#songs" data-i18n="navSongs">Songs</a>
-        <a href="#events" data-i18n="navEvents">Events</a>
-        <a href="#news" data-i18n="navNews">News</a>
-        <a href="#contact" data-i18n="navContact">Kontakt</a>
+      <nav class="main-nav" aria-label="Hauptnavigation">
+        <a href="#about" data-i18n="nav_about">Band</a>
+        <a href="#sound" data-i18n="nav_sound">Sound</a>
+        <a href="#music" data-i18n="nav_music">Songs</a>
+        <a href="#events" data-i18n="nav_events">Shows</a>
+        <a href="#news" data-i18n="nav_news">News</a>
+        <a href="#contact" data-i18n="nav_contact">Kontakt</a>
       </nav>
 
-      <div class="header-actions">
-        <button class="lang-toggle" id="langToggle" aria-label="Switch language">EN</button>
-      </div>
+      <button class="lang-switch" id="langSwitch" type="button" aria-label="Sprache wechseln">DE / EN</button>
     </div>
   </header>
 
-  <main id="main">
-    <section class="hero" id="top">
-      <div class="hero-media"></div>
-      <div class="hero-overlay"></div>
+  <main>
+    <section class="hero">
+      <div class="hero-media">
+        <img src="typhoon-band.jpg" alt="Typhoon Band Foto im warmen Vintage-Look">
+        <div class="hero-overlay"></div>
+      </div>
+
       <div class="container hero-content">
-        <p class="eyebrow" data-i18n="heroEyebrow">Hechingen · Bluesrock · Funk · Soul</p>
-        <h1 data-i18n="heroTitle">Groove, Brass &amp; Riffs mit Charakter.</h1>
-        <p class="hero-text" data-i18n="heroText">
-          Typhoon ist eine 8-köpfige Band mit Bluesrock, Funk- und Soul-Touch – druckvolle Grooves, kräftige Gitarrenriffs, warme Hammond-Sounds und eine markante Bläsersektion.
-        </p>
+        <p class="eyebrow" data-i18n="hero_eyebrow">Bluesrock • Funk • Soul • Groove</p>
+        <h1 data-i18n="hero_title">Groove mit Druck. Riffs mit Seele.</h1>
+        <p class="hero-lead" data-i18n="hero_text">Typhoon ist eine 8-köpfige Band aus Hechingen: Bluesrock mit Funk- und Soul-Touch, kräftigen Gitarrenriffs, Bläsersatz und einem Sound, der direkt nach Bühne riecht.</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#events" data-i18n="heroCtaPrimary">Upcoming Events</a>
-          <a class="btn btn-secondary" href="#contact" data-i18n="heroCtaSecondary">Booking anfragen</a>
+          <a class="btn btn-primary" href="#events" data-i18n="hero_cta_1">Termine ansehen</a>
+          <a class="btn btn-secondary" href="#about" data-i18n="hero_cta_2">Band entdecken</a>
         </div>
+        <ul class="hero-facts" aria-label="Bandfakten">
+          <li><strong>8</strong> <span data-i18n="fact_members">Musiker</span></li>
+          <li><strong>Hechingen</strong> <span data-i18n="fact_home">Homebase</span></li>
+          <li><strong>Kanzlei Studio</strong> <span data-i18n="fact_rehearsal">Proberaum</span></li>
+        </ul>
       </div>
     </section>
 
-    <section class="intro-strip">
+    <section class="section intro-riff">
       <div class="container intro-grid">
-        <article class="stat-card">
-          <span class="stat-number">8</span>
-          <span class="stat-label" data-i18n="statMembers">Mitglieder</span>
-        </article>
-        <article class="stat-card">
-          <span class="stat-number">3</span>
-          <span class="stat-label" data-i18n="statHorns">Bläser</span>
-        </article>
-        <article class="stat-card">
-          <span class="stat-number">5</span>
-          <span class="stat-label" data-i18n="statSongs">Songtitel</span>
-        </article>
-        <article class="stat-card">
-          <span class="stat-number">DE/EN</span>
-          <span class="stat-label" data-i18n="statLanguage">Website-Sprachen</span>
-        </article>
+        <div class="intro-card brass">
+          <span class="section-tag" data-i18n="intro_tag_1">Live-Energie</span>
+          <h2 data-i18n="intro_title_1">Kein glattes Baukasten-Design.</h2>
+          <p data-i18n="intro_text_1">Diese Demo-Website ist bewusst rauer, dunkler und musikalischer aufgebaut: mit Bühnenlicht, Vintage-Texturen, asymmetrischen Panels und einem Look zwischen Clubposter, Roadcase und altem Konzertflyer.</p>
+        </div>
+        <div class="intro-card paper">
+          <span class="section-tag" data-i18n="intro_tag_2">Aktueller Fokus</span>
+          <p data-i18n="intro_text_2">Typhoon probt regelmäßig im Kanzlei Studio in Hechingen, arbeitet am stabilen Set und will in den nächsten Monaten wieder häufiger live auf die Bühne.</p>
+        </div>
       </div>
     </section>
 
     <section class="section" id="about">
-      <div class="container two-col">
+      <div class="container split-layout">
         <div>
-          <p class="section-kicker" data-i18n="aboutKicker">Die Band</p>
-          <h2 data-i18n="aboutTitle">Typhoon bringt Studio-Energie auf die Bühne.</h2>
-          <p data-i18n="aboutText1">
-            Die Band probt regelmäßig im Kanzlei Studio in Hechingen und arbeitet daran, das Set der kommenden Monate stabil und live-ready zu machen.
-          </p>
-          <p data-i18n="aboutText2">
-            Der Sound verbindet Bluesrock mit Funk- und Soul-Touch: viel Groove, kräftige Riffs und immer wieder ein Hauch Southern-Vibe. Das Ergebnis ist ein druckvoller, organischer Livesound mit Charakter.
-          </p>
+          <p class="section-kicker" data-i18n="about_kicker">Die Band</p>
+          <h2 data-i18n="about_title">Acht Köpfe. Ein Groove.</h2>
+          <p data-i18n="about_text_1">Typhoon verbindet Bluesrock mit Funk- und Soul-Touch. Der Sound lebt von Druck, Luft, Dynamik und einem satten Fundament aus Rhythmusgruppe, Gitarren und Bläsern.</p>
+          <p data-i18n="about_text_2">Zwischen schweren Riffs, warmen Hammond-Flächen, treibenden Grooves und einem Hauch Southern-Vibe entsteht ein Livesound, der sowohl kantig als auch tanzbar ist.</p>
         </div>
 
         <aside class="lineup-card">
-          <h3 data-i18n="lineupTitle">Besetzung</h3>
+          <p class="section-kicker" data-i18n="lineup_kicker">Line-up</p>
           <ul class="lineup-list">
-            <li data-i18n="member1">Gesang / Keys (Hammond / Keys)</li>
-            <li data-i18n="member2">2× Gitarre</li>
-            <li data-i18n="member3">Bass</li>
-            <li data-i18n="member4">Drums</li>
-            <li data-i18n="member5">Saxophon</li>
-            <li data-i18n="member6">Trompete</li>
-            <li data-i18n="member7">Posaune</li>
+            <li data-i18n="lineup_1">Gesang / Keys (Hammond / Keys)</li>
+            <li data-i18n="lineup_2">2× Gitarre</li>
+            <li data-i18n="lineup_3">Bass</li>
+            <li data-i18n="lineup_4">Drums</li>
+            <li data-i18n="lineup_5">Saxophon</li>
+            <li data-i18n="lineup_6">Trompete</li>
+            <li data-i18n="lineup_7">Posaune</li>
           </ul>
         </aside>
       </div>
     </section>
 
-    <section class="section section-alt" id="sound">
+    <section class="section dark-panel" id="sound">
       <div class="container">
-        <p class="section-kicker" data-i18n="soundKicker">Sound</p>
-        <h2 data-i18n="soundTitle">Zwischen Bluesrock-Druck, Funk-Groove und Soul-Wärme.</h2>
-        <div class="feature-grid">
-          <article class="feature-card">
-            <h3 data-i18n="soundCard1Title">Groove first</h3>
-            <p data-i18n="soundCard1Text">Rhythmussektion und Bläser sorgen für Bewegung, Druck und Live-Energie.</p>
+        <p class="section-kicker" data-i18n="sound_kicker">Der Sound</p>
+        <h2 data-i18n="sound_title">Bluesrock im Kern. Funk und Soul im Blut.</h2>
+        <div class="sound-grid">
+          <article class="sound-card">
+            <h3 data-i18n="sound_card_1_title">Groove zuerst</h3>
+            <p data-i18n="sound_card_1_text">Viel Bewegung im Rhythmus, federnde Basslines und Drums mit Druck statt sterilem Geradeauslauf.</p>
           </article>
-          <article class="feature-card">
-            <h3 data-i18n="soundCard2Title">Kräftige Riffs</h3>
-            <p data-i18n="soundCard2Text">Zwei Gitarren liefern breite Texturen – von tight bis rough, immer songdienlich.</p>
+          <article class="sound-card">
+            <h3 data-i18n="sound_card_2_title">Kräftige Riffs</h3>
+            <p data-i18n="sound_card_2_text">Zwei Gitarren, Hammond-Farbe und genug Schmutz, damit der Sound nicht geschniegelt klingt.</p>
           </article>
-          <article class="feature-card">
-            <h3 data-i18n="soundCard3Title">Soul &amp; Southern Touch</h3>
-            <p data-i18n="soundCard3Text">Hammond, Vocals und warme Harmonien geben dem Sound Charakter und Tiefe.</p>
+          <article class="sound-card">
+            <h3 data-i18n="sound_card_3_title">Bläser mit Biss</h3>
+            <p data-i18n="sound_card_3_text">Saxophon, Trompete und Posaune setzen Akzente, treiben Hooks nach vorn und öffnen den Sound nach oben.</p>
+          </article>
+          <article class="sound-card">
+            <h3 data-i18n="sound_card_4_title">Southern-Vibe</h3>
+            <p data-i18n="sound_card_4_text">Ab und zu schimmert eine staubige, warme Weite durch — genau da, wo Groove auf Straße trifft.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="songs">
+    <section class="section" id="music">
       <div class="container">
-        <div class="section-head">
-          <div>
-            <p class="section-kicker" data-i18n="songsKicker">Songs</p>
-            <h2 data-i18n="songsTitle">Aktuelle Songtitel</h2>
-          </div>
-          <p class="section-note" data-i18n="songsNote">Die Liste kann jederzeit erweitert oder aktualisiert werden.</p>
+        <p class="section-kicker" data-i18n="music_kicker">Material</p>
+        <h2 data-i18n="music_title">Aktuelle Songs</h2>
+        <div class="tracks">
+          <article class="track"><span>01</span><h3>Farksilin</h3></article>
+          <article class="track"><span>02</span><h3>Karanfil</h3></article>
+          <article class="track"><span>03</span><h3>Gece yine düştün</h3></article>
+          <article class="track"><span>04</span><h3>Bir Tek sen</h3></article>
+          <article class="track"><span>05</span><h3>Cilgin</h3></article>
         </div>
-        <div class="songs-grid" id="songsGrid"></div>
       </div>
     </section>
 
-    <section class="section section-alt" id="events">
+    <section class="section dark-panel" id="events">
       <div class="container">
         <div class="section-head">
           <div>
-            <p class="section-kicker" data-i18n="eventsKicker">Live</p>
-            <h2 data-i18n="eventsTitle">Upcoming Events</h2>
+            <p class="section-kicker" data-i18n="events_kicker">Shows</p>
+            <h2 data-i18n="events_title">Upcoming Events</h2>
           </div>
-          <p class="section-note" data-i18n="eventsNote">Der Bereich ist vorbereitet und kann direkt mit echten Terminen gepflegt werden.</p>
+          <p class="events-note" data-i18n="events_note">Hinweis: Die folgenden Termine sind Demo-Inhalte für die Website-Gestaltung und keine bestätigten Buchungen.</p>
         </div>
-        <div class="cards-grid" id="eventsGrid"></div>
+
+        <div class="event-list">
+          <article class="event-card featured">
+            <div class="event-date"><span>07</span><small>05/2027</small></div>
+            <div class="event-body">
+              <p class="event-role" data-i18n="event_role_support">Vorband</p>
+              <h3>Waldmusikfest Walddorfhäslach</h3>
+              <p>Walddorfhäslach • 19:00 Uhr</p>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-date"><span>22</span><small>05/2027</small></div>
+            <div class="event-body">
+              <p class="event-role" data-i18n="event_role_live">Live</p>
+              <h3>Club Night im franz.K</h3>
+              <p>Reutlingen • 20:30 Uhr</p>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-date"><span>05</span><small>06/2027</small></div>
+            <div class="event-body">
+              <p class="event-role" data-i18n="event_role_festival">Festival Slot</p>
+              <h3>Neckar Groove Open Air</h3>
+              <p>Tübingen • 18:00 Uhr</p>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-date"><span>19</span><small>06/2027</small></div>
+            <div class="event-body">
+              <p class="event-role" data-i18n="event_role_headline">Headline Show</p>
+              <h3>Sommernacht am Schwanenmarkt</h3>
+              <p>Balingen • 21:00 Uhr</p>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-date"><span>03</span><small>07/2027</small></div>
+            <div class="event-body">
+              <p class="event-role" data-i18n="event_role_special">Special Set</p>
+              <h3>Kanzlei Studio Session Night</h3>
+              <p>Hechingen • 20:00 Uhr</p>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-date"><span>17</span><small>07/2027</small></div>
+            <div class="event-body">
+              <p class="event-role" data-i18n="event_role_city">City Stage</p>
+              <h3>Stadtklang am Marienplatz</h3>
+              <p>Stuttgart • 19:30 Uhr</p>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
     <section class="section" id="news">
       <div class="container">
-        <div class="section-head">
-          <div>
-            <p class="section-kicker" data-i18n="newsKicker">Aktuell</p>
-            <h2 data-i18n="newsTitle">News</h2>
-          </div>
-          <p class="section-note" data-i18n="newsNote">News-Einträge können ohne Layout-Anpassungen ergänzt werden.</p>
+        <p class="section-kicker" data-i18n="news_kicker">Updates</p>
+        <h2 data-i18n="news_title">News aus dem Proberaum</h2>
+        <div class="news-grid">
+          <article class="news-card">
+            <span class="news-date">03.2027</span>
+            <h3 data-i18n="news_1_title">Set wird verdichtet</h3>
+            <p data-i18n="news_1_text">Typhoon arbeitet aktuell daran, das Liveset musikalisch und dramaturgisch zu schärfen — mehr Flow, klarere Übergänge und noch mehr Druck auf der Bühne.</p>
+          </article>
+          <article class="news-card">
+            <span class="news-date">02.2027</span>
+            <h3 data-i18n="news_2_title">Regelmäßige Proben im Kanzlei Studio</h3>
+            <p data-i18n="news_2_text">Im Hechinger Proberaum wird konsequent an Sound, Zusammenspiel und Dynamik gefeilt. Ziel ist ein stabiles Set für kommende Live-Termine.</p>
+          </article>
+          <article class="news-card">
+            <span class="news-date">01.2027</span>
+            <h3 data-i18n="news_3_title">Mehr Bühne in Planung</h3>
+            <p data-i18n="news_3_text">Für die nächsten Monate ist der Fokus klar: Set festigen, Präsenz ausbauen und wieder häufiger in der Region live spielen.</p>
+          </article>
         </div>
-        <div class="cards-grid" id="newsGrid"></div>
       </div>
     </section>
 
-    <section class="section section-alt" id="contact">
-      <div class="container contact-grid">
+    <section class="section cta-panel" id="contact">
+      <div class="container cta-grid">
         <div>
-          <p class="section-kicker" data-i18n="contactKicker">Kontakt</p>
-          <h2 data-i18n="contactTitle">Bereit für die nächsten Gigs.</h2>
-          <p data-i18n="contactText">
-            Diese Demo-Seite ist bereit für GitHub Pages. Für die Live-Version könnt ihr hier eure echte Booking-Mail, Social-Links und Medien ergänzen.
-          </p>
+          <p class="section-kicker" data-i18n="contact_kicker">Kontakt</p>
+          <h2 data-i18n="contact_title">Booking, Anfrage, Konzert?</h2>
+          <p data-i18n="contact_text">Für die Demo ist hier ein Platzhalter eingebaut. Ersetze ihn später einfach durch eure echte E-Mail, Social Links oder ein Formular.</p>
         </div>
-
-        <div class="contact-card">
-          <h3 data-i18n="contactCardTitle">Demo-Kontakt</h3>
-          <p><strong>Email:</strong> <a href="mailto:booking@example.com">booking@example.com</a></p>
-          <p><strong>Studio:</strong> Kanzlei Studio, Hechingen</p>
-          <p><strong>GitHub Pages:</strong> <span data-i18n="contactPages">direkt einsetzbar</span></p>
+        <div class="contact-box">
+          <a href="mailto:booking@typhoon-band.de">booking@typhoon-band.de</a>
+          <p data-i18n="contact_region">Raum Hechingen • Balingen • Reutlingen • Tübingen • Stuttgart</p>
         </div>
       </div>
     </section>
@@ -234,7 +275,7 @@
   <footer class="site-footer">
     <div class="container footer-wrap">
       <p>© <span id="year"></span> Typhoon</p>
-      <p data-i18n="footerText">Demo Website für GitHub Pages · DE/EN · SEO-ready</p>
+      <p data-i18n="footer_note">Demo-Website für GitHub Pages. Termine teilweise als Platzhalter/Demo markiert.</p>
     </div>
   </footer>
 
